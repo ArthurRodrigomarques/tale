@@ -1,0 +1,72 @@
+@media screen and (max-width:768px){
+    header {
+        width: 100%;
+    }
+    .contato p {
+        display: none;
+    }
+    .contato {
+        flex-wrap: wrap;
+    }
+    .contato ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .secao {
+        display: none;
+    }
+    .secao-mobile {
+        display: block;
+        margin-top: 15px;
+    }
+
+
+
+    .about {
+        width: 80%;
+        margin-left: 40px;
+    }
+    .about-us {
+        width: 100%;
+        text-align: center;
+    }
+    .button {
+      color: white;
+    }
+    .button .more {
+        
+    }
+    .button p {
+       
+    }
+    .button .faqs {
+        
+    }
+
+
+
+
+
+
+
+
+
+    .about-us img{
+        margin-top: 70px;
+        width: 80%;
+        border-radius: 10px;
+     }
+
+     .video {
+        padding-top: 450px;
+     }
+     .video1 img {
+        width: 90%;
+    }
+    .estatisticas {
+        width: 100%;
+        padding-left: 30px;
+    }
+    
+}
