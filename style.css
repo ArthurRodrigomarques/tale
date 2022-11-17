@@ -75,7 +75,6 @@ section.menu {
 .discover {
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap;
     width: 100%;
     height: 75vh;
  }
@@ -241,3 +240,108 @@ section.menu {
 }
 
                 /*passos*/
+
+.passos {
+    width: 100%;
+    height: 56vh;
+    background: url(./imagens/banner-left.png) no-repeat;
+    background-position: left center;
+}
+.success {
+    text-align: center;
+    padding-top: 110px;
+}
+.success h1 {
+    font-size: 35px;
+
+}
+.success p {
+    padding-top: 50px;
+    color: rgb(170, 170, 170);
+}
+.um {
+    color:blueviolet ;
+}
+.dois {
+    color: rgb(205, 97, 254);  
+}
+.introdution1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    margin: 60px 10%;
+    height: 10vh;
+    border: 2px  solid rgb(167, 167, 167);
+    border-radius: 20px;
+}
+.introdution1 h2 {
+    cursor: pointer;
+}
+.introdution1 h2:hover {
+    color: blueviolet;
+}
+.introdution1 p{
+    font-size: 35px;
+    color: rgb(167, 167, 167);
+}
+
+.introdution {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.best {
+    width: 45%;
+}
+.imagem2 {
+    width: 40%;
+}
+.introdution h2 {
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+.introdution p {
+    color:rgb(167, 167, 167) ;
+    padding-bottom: 50px;
+    line-height: 30px;
+}
+.butao button {
+    font-size: 16px;
+    background-color: rgb(80, 0, 155);
+    color: white;
+    width: 140px;
+    height: 40px;
+    border-radius: 40px;
+    margin:  -10px 20px 30px 20px;
+    border: 0px;
+}
+.ready {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 35vh;
+    background: url(./imagens/infos-bg.jpg) no-repeat;
+    background-size: cover;
+}
+.ready h1 {
+    font-size: 34px;
+    color: white;
+    padding-top: 100px;
+    padding-left: 5vw;
+}
+.contact {
+    width: 160px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: white;
+    color: blueviolet;
+    text-align: center;
+    padding-top: 16px;
+    margin-top: 100px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}

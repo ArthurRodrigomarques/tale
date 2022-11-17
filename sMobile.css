@@ -1,4 +1,4 @@
-@media screen and (max-width:768px){
+@media screen and (max-width:850px){
     header {
         width: 100%;
     }
@@ -22,7 +22,9 @@
     }
 
 
-
+    .discover {
+        flex-wrap: wrap;
+     }
     .about {
         width: 80%;
         margin-left: 40px;
@@ -46,12 +48,6 @@
 
 
 
-
-
-
-
-
-
     .about-us img{
         margin-top: 70px;
         width: 80%;
@@ -69,4 +65,24 @@
         padding-left: 30px;
     }
     
+
+    .ready {
+        text-align: center;
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .ready a {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .introdution {
+        flex-wrap: wrap;
+    }
+    .best {
+        width: 99%;
+    }
+    .imagem2 {
+        width: 99%;
+    }
 }
