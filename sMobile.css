@@ -2,16 +2,8 @@
     header {
         width: 100%;
     }
-    .contato p {
-        display: none;
-    }
     .contato {
-        flex-wrap: wrap;
-    }
-    .contato ul{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
+        display: none;
     }
     .secao {
         display: none;
@@ -20,7 +12,9 @@
         display: block;
         margin-top: 15px;
     }
-
+    .discover {
+        height: auto;
+     }
 
     .discover {
         flex-wrap: wrap;
@@ -36,26 +30,17 @@
     .button {
       color: white;
     }
-    .button .more {
-        
-    }
-    .button p {
-       
-    }
-    .button .faqs {
-        
-    }
 
 
 
     .about-us img{
         margin-top: 70px;
-        width: 80%;
+        width: 70%;
         border-radius: 10px;
      }
 
      .video {
-        padding-top: 450px;
+        padding-top: 200px;
      }
      .video1 img {
         width: 90%;
@@ -76,13 +61,50 @@
         margin-bottom: 25px;
     }
 
+    .social {
+        margin-bottom: 60px;
+    }
+
     .introdution {
         flex-wrap: wrap;
     }
+    
+    .introdution1 {
+        display: block;
+        
+        align-items: center;
+        width: 80%;
+        margin: 60px 10%;
+        height: auto;
+      
+  
+        border: 2px solid rgb(155, 155, 155);
+    }
+    .introdution1 h2 {
+        cursor: pointer;
+        padding: 15px;
+        border-bottom: 2px solid rgb(155, 155, 155);
+    }
+    .introdution1 p{
+        display: none;
+    }
+
     .best {
         width: 99%;
     }
     .imagem2 {
         width: 99%;
+    }
+
+
+    .passos {
+        width: 100%;
+        height: auto;
+        background: url(./imagens/banner-left.png) no-repeat;
+        background-position: left center;
+    }
+
+    .imagem2 img{
+        width: 100%;
     }
 }
